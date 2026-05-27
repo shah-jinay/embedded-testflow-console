@@ -1,0 +1,33 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Java
+*.class
+*.jar
+!**/src/main/**/*.jar
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+*.code-workspace
+.DS_Store
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Docker volumes
+postgres_data/

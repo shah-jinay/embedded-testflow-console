@@ -1,0 +1,4 @@
+logging:
+  level:
+    com.etfc: DEBUG
+    org.springframework.web: DEBUG
